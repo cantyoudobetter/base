@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: dpw_development
+  database: base_development
 
 
   # The above config should "just work" on Mac with PostgreSQL

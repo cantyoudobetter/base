@@ -341,7 +341,7 @@ DEPENDENCIES
   annotate (>= 2.5.0)
   autoprefixer-rails (>= 5.0.0.1)
   awesome_print
-  bcrypt (~> 3.1.7)
+  bcrypt (~> 3.1.12)
   bcrypt_pbkdf
   better_errors
   binding_of_caller
