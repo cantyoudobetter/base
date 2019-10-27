@@ -7,7 +7,7 @@ gem 'puma', '~> 3.0'
 gem 'uglifier', '>= 1.3.0'
 gem "active_type", ">= 0.3.2"
 gem "autoprefixer-rails", ">= 5.0.0.1"
-gem "bcrypt", "~> 3.1.7"
+gem "bcrypt", "~> 3.1.12"
 gem "bootstrap_form", "~> 2.3"
 gem "bootstrap-sass", "~> 3.3"
 gem 'devise-bootstrap-views', '~> 1.0'
