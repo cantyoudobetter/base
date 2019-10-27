@@ -1,0 +1,14 @@
+<%= bootstrap_form_for(@product) do |f| %>
+
+  <%= f.alert_message "Please review the problems below:" %>
+
+  <%= f.text_field :name %>
+  <%= f.number_field :price %>
+  <%= f.text_field :version %>
+  <%= f.date_field :production_date %>
+  <%= f.text_field :code %>
+
+  <%= f.primary %>
+  <%= link_to "Back", products_path, :class => "btn btn-link" %>
+
+<% end %>

@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: products
+#
+#  id              :bigint           not null, primary key
+#  code            :string
+#  name            :string
+#  price           :decimal(12, 2)
+#  production_date :date
+#  version         :string
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  price: 9.99
+  version: MyString
+  production_date: 2019-10-26
+  code: MyString
+
+two:
+  name: MyString
+  price: 9.99
+  version: MyString
+  production_date: 2019-10-26
+  code: MyString

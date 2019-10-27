@@ -1,0 +1,33 @@
+<% provide(:title) do %>
+  Product #<%= @product.id %>
+<% end %>
+
+<table class="table table-bordered">
+  <tbody>
+    <tr>
+      <th class="col-sm-2">Name</th>
+      <td><%= @product.name %></td>
+    </tr>
+    <tr>
+      <th class="col-sm-2">Price</th>
+      <td><%= @product.price %></td>
+    </tr>
+    <tr>
+      <th class="col-sm-2">Version</th>
+      <td><%= @product.version %></td>
+    </tr>
+    <tr>
+      <th class="col-sm-2">Production date</th>
+      <td><%= @product.production_date %></td>
+    </tr>
+    <tr>
+      <th class="col-sm-2">Code</th>
+      <td><%= @product.code %></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  <%= link_to "Edit", edit_product_path(@product), :class => "btn btn-primary" %>
+  <%= link_to "Back", products_path, :class => "btn btn-link" %>
+</p>
