@@ -3,7 +3,7 @@ ruby '~> 2.6.0'
 
 gem 'rails', '~> 5.2.3'
 gem 'pg', '~> 0.21'
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 3.12'
 gem 'uglifier', '>= 1.3.0'
 gem "active_type", ">= 0.3.2"
 gem "autoprefixer-rails", ">= 5.0.0.1"
